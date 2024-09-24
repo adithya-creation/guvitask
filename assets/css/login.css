@@ -1,0 +1,46 @@
+body {
+    background-color: #f1f3f5;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40,167,69,.25);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
